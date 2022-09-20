@@ -7,12 +7,12 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Rebecca Bakels Portfolio</title>
+        <title>Rebecca Bakels</title>
         <meta
           name="description"
-          content="potfolio for software engineer Rebecca Bakels"
+          content="Portfolio for Rebecca Bakels, software engineer"
         />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main className={styles.main}>
@@ -56,7 +56,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Crossing County Line | Tech Hub Partners Collaborate for Students
+            Crossing County Lines | Tech Hub Partners Collaborate for Students
             &rarr;
           </a>
           <a
