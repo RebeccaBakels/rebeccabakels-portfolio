@@ -1,11 +1,11 @@
 .container {
-  padding: 0 2rem;
+  padding: 0 2.5rem;
   background-image: linear-gradient(rgb(179, 233, 168), rgb(62, 100, 55));
 }
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 5rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.25rem;
+  padding-bottom: 10rem;
 }
 .summary_container {
   max-width: 95vh;
