@@ -106,6 +106,75 @@
   }
 }
 
+/* >>>>>>>>>>>>> LINE SVG <<<<<<<<<<<<< */
+#SvgPathOnScrollWrapper {
+  position: relative;
+  height: 200vh;
+  margin: 0;
+  /* background: var(--white); */
+  overflow: hidden;
+}
+/* 
+#SvgPathOnScrollWrapper section {
+  height: 120vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.lineContainer {
+  height: 140vh;
+  position: absolute;
+  /* top: 56.9vh; */
+  /* left: -10%; */
+  text-align: center;
+  overflow: hidden;
+  z-index: 12;
+}
+
+.lineContainer svg {
+  display: inline-block;
+  height: 100%;
+}
+
+.lineContainer svg path {
+  stroke: black;
+  stroke-width: 3;
+}
+/* @media (min-width: 576px) {
+  .lineContainer {
+    height: 79.7%;
+    width: 100%;
+    left: -4%;
+  }
+} */
+
+/* // Medium devices (tablets, 768px and up)  */
+/* @media (min-width: 768px) {
+  .lineContainer {
+    height: 79.7%;
+    width: 100%;
+    left: -2%;
+  }
+} */
+
+/* // Large devices (desktops, 992px and up)  */
+/* @media (min-width: 992px) {
+  #SvgPathOnScrollWrapper {
+    position: relative;
+    height: 500vh;
+  }
+
+  #SvgPathOnScrollWrapper section {
+    height: 100vh;
+  }
+
+  .lineContainer {
+    height: 79%;
+    left: -1%;
+  }
+} */
 @media (prefers-color-scheme: dark) {
   .link_right,
   .link_left,
