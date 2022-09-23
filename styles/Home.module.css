@@ -23,7 +23,7 @@
 }
 
 .title {
-  margin: 0;
+  margin-bottom: 0;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -109,19 +109,19 @@
 /* >>>>>>>>>>>>> LINE SVG <<<<<<<<<<<<< */
 #SvgPathOnScrollWrapper {
   position: relative;
-  height: 200vh;
+  /* height: 200vh; */
   margin: 0;
   /* background: var(--white); */
   overflow: hidden;
 }
-/* 
+
 #SvgPathOnScrollWrapper section {
   height: 120vh;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
 
 .lineContainer {
   height: 140vh;
@@ -130,7 +130,7 @@
   /* left: -10%; */
   text-align: center;
   overflow: hidden;
-  z-index: 12;
+  z-index: 1;
 }
 
 .lineContainer svg {
