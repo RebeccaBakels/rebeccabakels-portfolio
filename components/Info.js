@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 function Info() {
   return (
     <>
-      <div>
+      <div className={styles.padding}>
         <h1 className={styles.title}>Hi, I'm Rebecca </h1>
 
         <p className={styles.description}>
