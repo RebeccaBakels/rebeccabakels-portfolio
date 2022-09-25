@@ -1,21 +1,24 @@
 .container {
   background-image: linear-gradient(rgb(179, 233, 168), rgb(62, 100, 55));
- padding-top: 5rem;
- 
+  padding-top: 5rem;
 }
 
 .main {
-  /* min-height: 100vh; */
+  position: relative;
   display: flex;
   flex-direction: column;
+  height: auto;
   width: 100%;
-  height: auto
-    
+  margin: 0;
+  overflow: hidden;
 }
+
 .padding {
   padding: 5rem 2.5rem;
   height: inherit;
-    width: inherit;
+  width: inherit;
+  position: relative;
+  z-index: 100;
 }
 
 .title a {
@@ -49,10 +52,11 @@
   max-width: 95vh;
 }
 
-.summary, .summary_right{
-    line-height: 1.5;
-    font-size: 1.25rem;
-    padding-top: 9rem;
+.summary,
+.summary_right {
+  line-height: 1.5;
+  font-size: 1.25rem;
+  padding-top: 9rem;
 }
 
 .summary_right {
@@ -60,8 +64,8 @@
   justify-content: right;
 }
 
-
-.link_right, .link_left {
+.link_right,
+.link_left {
   display: flex;
   text-align: left;
   color: inherit;
@@ -85,28 +89,10 @@
   color: #03cc67;
 }
 
-
 /* >>>>>>>>>>>>> LINE SVG <<<<<<<<<<<<< */
-#SvgPathOnScrollWrapper {
-height: inherit;
-width: inherit;
-position: relative;
-margin: 0;
-overflow: hidden;
-}
-/* 
-#SvgPathOnScrollWrapper section {
-  height: 120vh;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .lineContainer {
-  /* aspect-ratio: 1 / 1;   */
-    height: 90%;
-      width: inherit;
+  height: 90%;
   position: absolute;
   overflow: hidden;
   z-index: 1;
@@ -114,45 +100,10 @@ overflow: hidden;
 
 .lineContainer svg {
   height: inherit;
+  width: 100%;
+
 }
 
-.lineContainer svg path {
-  /* stroke: black;
-  stroke-width: 3; */
-}
-/* @media (min-width: 576px) {
-  .lineContainer {
-    height: 79.7%;
-    width: 100%;
-    left: -4%;
-  }
-} */
-
-/* // Medium devices (tablets, 768px and up)  */
-/* @media (min-width: 768px) {
-  .lineContainer {
-    height: 79.7%;
-    width: 100%;
-    left: -2%;
-  }
-} */
-
-/* // Large devices (desktops, 992px and up)  */
-/* @media (min-width: 992px) {
-  #SvgPathOnScrollWrapper {
-    position: relative;
-    height: 500vh;
-  }
-
-  #SvgPathOnScrollWrapper section {
-    height: 100vh;
-  }
-
-  .lineContainer {
-    height: 79%;
-    left: -1%;
-  }
-} */
 @media (prefers-color-scheme: dark) {
   .link_right,
   .link_left,
