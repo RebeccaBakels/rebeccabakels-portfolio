@@ -45,39 +45,48 @@
 
 .description {
   line-height: 1.5;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding-bottom: 10rem;
 }
 .summary_container {
   max-width: 95vh;
+  padding-top: 5rem;
 }
 
 .summary,
 .summary_right {
   line-height: 1.5;
-  font-size: 1.25rem;
-  padding-top: 9rem;
+  font-size: 1.5rem;
+  
 }
 
 .summary_right {
   text-align: right;
   justify-content: right;
 }
-
+.right_container {
+  text-align: right;
+  padding-top: 5rem;
+}
 .link_right,
 .link_left {
   display: flex;
-  text-align: left;
   color: inherit;
   text-decoration: none;
   transition: color 0.15s ease, border-color 0.15s ease;
+    font-size: 1.4rem;
 }
 .link_right {
   justify-content: right;
+    text-align: end;
 }
 
 .link_right a {
   text-align: right;
+}
+.stroke {
+  stroke: #b0d7a9;
+  stroke-width: 2;
 }
 
 .link_right:hover,
@@ -92,7 +101,7 @@
 /* >>>>>>>>>>>>> LINE SVG <<<<<<<<<<<<< */
 
 .lineContainer {
-  height: 90%;
+  height: 55%;
   position: absolute;
   overflow: hidden;
   z-index: 1;
@@ -100,8 +109,7 @@
 
 .lineContainer svg {
   height: inherit;
-  width: 100%;
-
+  stroke: whitesmoke;
 }
 
 @media (prefers-color-scheme: dark) {
