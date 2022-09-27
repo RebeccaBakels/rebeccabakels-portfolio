@@ -125,7 +125,7 @@
 }
 
 
-@media (min-width: 576px) {
+@media (min-width: 550px) {
   .lineContainer {
     height: 47%;
     left: -12px;
