@@ -1,6 +1,7 @@
 .container {
   background-image: linear-gradient(rgb(179, 233, 168), rgb(62, 100, 55));
   padding-top: 5rem;
+  color: black;
 }
 
 .main {
@@ -21,11 +22,6 @@
   z-index: 100;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
 .title a:hover,
 .title a:focus,
 .title a:active {
@@ -43,11 +39,12 @@
   text-align: right;
 }
 
+
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
-  padding-bottom: 10rem;
 }
+
 .summary_container {
   max-width: 95vh;
   padding-top: 5rem;
@@ -57,7 +54,7 @@
 .summary_right {
   line-height: 1.5;
   font-size: 1.5rem;
-  
+  margin-top: 0;
 }
 
 .summary_right {
@@ -66,7 +63,7 @@
 }
 .right_container {
   text-align: right;
-  padding-top: 5rem;
+  padding-top: 3rem;
 }
 .link_right,
 .link_left {
@@ -101,7 +98,8 @@
 /* >>>>>>>>>>>>> LINE SVG <<<<<<<<<<<<< */
 
 .lineContainer {
-  height: 55%;
+  height: 36%;
+  left: -114px;
   position: absolute;
   overflow: hidden;
   z-index: 1;
@@ -123,5 +121,25 @@
   }
   .logo img {
     filter: invert(1);
+  }
+}
+
+
+@media (min-width: 576px) {
+  .lineContainer {
+    height: 47%;
+    left: -12px;
+  }
+     .description {
+       padding-bottom: 6rem;
+     }
+}
+
+@media (min-width: 950px) {
+  .lineContainer {
+    height: 55%
+  }
+  .description {
+    padding-bottom: 8rem;
   }
 }
