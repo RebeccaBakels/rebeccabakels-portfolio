@@ -7,28 +7,6 @@ import { useEffect } from 'react';
 import Info from '../components/Info';
 
 export default function Home() {
-  // useEffect(() => {
-  //   const path = document.querySelector('.linePath');
-  //   const pathLength = path.getTotalLength();
-
-  //   path.style.strokeDasharray = pathLength + ' ' + pathLength;
-  //   path.style.strokeDashoffset = pathLength;
-
-  //   window.addEventListener('scroll', () => {
-  //     // what % down is it
-  //     const scrollPercentage =
-  //       (document.documentElement.scrollTop + document.body.scrollTop) /
-  //       (document.documentElement.scrollHeight -
-  //         document.documentElement.clientHeight);
-
-  //     // length to offset he dashes
-  //     const drawLength = pathLength * scrollPercentage;
-
-  //     // Draw in reverse
-  //     path.style.strokeDashoffset = pathLength - drawLength;
-  //   });
-  // }, []);
-
   return (
     <div className={styles.container}>
       <Head>
