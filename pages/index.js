@@ -38,7 +38,3 @@ export default function Home() {
     </div>
   );
 }
-//            preserveAspectRatio="xMidYMax meet"
-//              className={(styles.linePath, 'linePath')}
-//stroke="#83a37d"
-//stroke-width="2"

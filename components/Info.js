@@ -34,6 +34,14 @@ function Info() {
           <h2 className={styles.summary_right}>Gather around the campfire</h2>
           <a
             className={styles.link_right}
+            href="https://nextjs.org/conf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Next.js Conf (Coming Soon) &rarr;
+          </a>
+          <a
+            className={styles.link_right}
             href="https://youtu.be/V-xS3g1RLhQ"
             target="_blank"
             rel="noopener noreferrer"
