@@ -34,11 +34,11 @@ function Info() {
           <h2 className={styles.summary_right}>Gather around the campfire</h2>
           <a
             className={styles.link_right}
-            href="https://nextjs.org/conf"
+            href="https://nextjs.org/conf/speakers/beccalytics"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Next.js Conf (Coming Soon) &rarr;
+            Next.js Conf- Waterbeds to Wayfair Competitor (Coming Soon) &rarr;
           </a>
           <a
             className={styles.link_right}
