@@ -38,7 +38,15 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Next.js Conf- Waterbeds to Wayfair Competitor (Coming Soon) &rarr;
+            Next.js Conf- Waterbeds to Wayfair Competitor &rarr;
+          </a>
+          <a
+            className={styles.link_right}
+            href="https://youtu.be/Nu1DwM1yZhws"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Job Expectations - The First 90 Days &rarr;
           </a>
           <a
             className={styles.link_right}
