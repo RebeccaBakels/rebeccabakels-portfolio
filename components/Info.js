@@ -34,7 +34,7 @@ function Info() {
           <h2 className={styles.summary_right}>Gather around the campfire</h2>
           <a
             className={styles.link_right}
-            href="https://nextjs.org/conf/speakers/beccalytics"
+            href="https://youtu.be/V5glQRR-bTI"
             target="_blank"
             rel="noopener noreferrer"
           >
