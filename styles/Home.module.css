@@ -99,7 +99,7 @@
   left: -114px;
   position: absolute;
   overflow: hidden;
-  z-index: 1;
+  z-index: -1;
 }
 
 .lineContainer svg {
