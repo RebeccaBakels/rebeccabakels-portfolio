@@ -1,12 +1,18 @@
 /* eslint-disable react/no-unescaped-entities */
-import * as React from 'react';
-import styles from '../styles/Home.module.css';
+import * as React from "react";
+import Link from "next/link";
+import styles from "../styles/Home.module.css";
 
 function Info() {
   return (
     <>
       <div className={styles.padding}>
-        <h1 className={styles.title}>Hi, I'm Rebecca </h1>
+        <h1 className={styles.title}>
+          Hi, I'm{" "}
+          <Link href={"/my-story"} passHref>
+            Rebecca
+          </Link>
+        </h1>
 
         <p className={styles.description}>
           Welcome in, make yourself at home, and learn a little more about me...
