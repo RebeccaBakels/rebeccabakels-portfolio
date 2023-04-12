@@ -27,14 +27,17 @@
 }
 
 .title {
-  margin-bottom: 0;
-  line-height: 1.15;
+  margin: 0;
   font-size: 4rem;
 }
-
+.cta,
 .title,
 .description {
   text-align: right;
+}
+.cta {
+  font-size: 1rem;
+  margin: 0px 15px 0px 0px;
 }
 
 .description {
@@ -128,6 +131,9 @@
   }
   .description {
     padding-bottom: 6rem;
+  }
+  .cta {
+    margin: 0px 40px 0px 0px;
   }
 }
 

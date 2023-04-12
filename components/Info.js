@@ -7,10 +7,10 @@ function Info() {
   return (
     <>
       <div className={styles.padding}>
+        <h2 className={styles.cta}>Click me ⤵</h2>
         <h1 className={styles.title}>
-          Hi, I'm{" "}
           <Link href={"/my-story"} passHref>
-            Rebecca
+            Hi, I'm Rebecca
           </Link>
         </h1>
 
