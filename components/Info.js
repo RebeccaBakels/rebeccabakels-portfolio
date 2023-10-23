@@ -78,6 +78,14 @@ function Info() {
           <h2 className={styles.summary}>Curl up with a book</h2>
           <a
             className={styles.link_left}
+            href="https://rebeccabakels.hashnode.dev/discover-city-tech-where-innovation-meets-community"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Discover 'CITY Tech': Where Innovation Meets Community &rarr;
+          </a>
+          <a
+            className={styles.link_left}
             href="https://techhubsouthflorida.org/stronger-together/"
             target="_blank"
             rel="noopener noreferrer"
@@ -148,6 +156,14 @@ function Info() {
             rel="noopener noreferrer"
           >
             Instagram &rarr;
+          </a>
+          <a
+            className={styles.link_right}
+            href="https://rebeccabakels.hashnode.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hashnode &rarr;
           </a>
         </div>
       </div>
