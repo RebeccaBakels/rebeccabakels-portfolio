@@ -44,7 +44,23 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Next.js Conf- Waterbeds to Wayfair Competitor &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" x2="12" y1="19" y2="22"></line>
+            </svg>
+            &nbsp;Next.js Conf- Waterbeds to Wayfair Competitor
           </a>
           <a
             className={styles.link_right}
@@ -52,7 +68,23 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Job Expectations - The First 90 Days &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" x2="12" y1="19" y2="22"></line>
+            </svg>
+            &nbsp;Job Expectations - The First 90 Days
           </a>
           <a
             className={styles.link_right}
@@ -60,7 +92,23 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Going from Retail Manager to Software Engineer in 6 Months &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path>
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2"></path>
+              <line x1="12" x2="12" y1="19" y2="22"></line>
+            </svg>
+            &nbsp;Going from Retail Manager to Software Engineer in 6 Months
           </a>
         </div>
         <div className={styles.summary_container}>
@@ -78,12 +126,50 @@ function Info() {
           <h2 className={styles.summary}>Curl up with a book</h2>
           <a
             className={styles.link_left}
+            href="https://rebeccabakels.hashnode.dev/discover-city-tech-where-innovation-meets-community"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+              <path d="m15 5 4 4"></path>
+            </svg>
+            &nbsp;Discover 'CITY Tech': Where Innovation Meets Community
+          </a>
+          <a
+            className={styles.link_left}
             href="https://techhubsouthflorida.org/stronger-together/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Stronger Together | South Florida's United Future as a Tech Hub
-            &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+              <path d="m15 5 4 4"></path>
+            </svg>
+            &nbsp;Stronger Together | South Florida's United Future as a Tech
+            Hub
           </a>
           <a
             className={styles.link_left}
@@ -91,8 +177,23 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Crossing County Lines | Tech Hub Partners Collaborate for Students
-            &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+              <path d="m15 5 4 4"></path>
+            </svg>
+            &nbsp;Crossing County Lines | Tech Hub Partners Collaborate for
+            Students
           </a>
           <a
             className={styles.link_left}
@@ -100,7 +201,22 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Teeing Off 2021 with Tech Hub South Florida &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+              <path d="m15 5 4 4"></path>
+            </svg>
+            &nbsp;Teeing Off 2021 with Tech Hub South Florida
           </a>
           <a
             className={styles.link_left}
@@ -108,7 +224,22 @@ function Info() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            How I Made My First Unity Game in Six Hours &rarr;
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class=" h-6 w-6 text-yellow-500 dark:text-yellow-400"
+            >
+              <path d="M17 3a2.85 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5Z"></path>
+              <path d="m15 5 4 4"></path>
+            </svg>
+            &nbsp;How I Made My First Unity Game in Six Hours
           </a>
         </div>
         <div className={styles.right_container}>
@@ -148,6 +279,14 @@ function Info() {
             rel="noopener noreferrer"
           >
             Instagram &rarr;
+          </a>
+          <a
+            className={styles.link_right}
+            href="https://rebeccabakels.hashnode.dev/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Hashnode &rarr;
           </a>
         </div>
       </div>
